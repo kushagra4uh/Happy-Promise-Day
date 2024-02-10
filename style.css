@@ -43,6 +43,11 @@ body {
 .heart > img {
   width: 80px;
   height: auto;
+  animation-name: beat;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 p {
@@ -69,7 +74,7 @@ p {
 }
 
 .heart > img:hover {
-  width: 30px;
+  width: 80px;
   height: auto;
   animation-name: beat;
   animation-duration: 2s;
